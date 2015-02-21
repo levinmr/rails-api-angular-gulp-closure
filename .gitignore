@@ -19,6 +19,7 @@
 /bower_components/
 /client/coverage/
 /coverage
+/public/*
 test-results.xml
 .gulp-cache-jshint
 .gulp-cache-gjslint

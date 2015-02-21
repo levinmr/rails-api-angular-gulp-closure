@@ -12,7 +12,7 @@ goog.require('goog.string');
  * @type {!angular.Module}
  */
 app.module = angular.module(
-    'gm',
+    'template',
     ['ngRoute',
      'ngTouch',
      app.levela.module.name
