@@ -1,0 +1,9 @@
+<div id='character-page'>
+  <div class='character-panel'>
+    <selectable-character ng-repeat="character in levelACtrl.characters"
+                          characterIndex="{{$index}}"
+                          partyId="{{levelACtrl.currentParty.id}}">
+    </selectable-character>
+
+  </div>
+</div>
